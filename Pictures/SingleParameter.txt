@@ -1,0 +1,29 @@
+% \usepackage[usenames,dvipsnames]{pstricks}
+% \usepackage{epsfig}
+% \usepackage{pst-grad} % For gradients
+% \usepackage{pst-plot} % For axes
+% \usepackage[space]{grffile} % For spaces in paths
+% \usepackage{etoolbox} % For spaces in paths
+% \makeatletter % For spaces in paths
+% \patchcmd\Gread@eps{\@inputcheck#1 }{\@inputcheck"#1"\relax}{}{}
+% \makeatother
+% % User Packages:
+% 
+% 
+
+\psscalebox{1.0 1.0} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-1.2266667)(5.786667,1.2266667)
+\rput[bl](0.22933333,0.6853333){$ d_v $}
+\pscircle[linecolor=black, linewidth=0.04, dimen=outer](0.37333333,0.82666665){0.37333333}
+\rput[bl](5.2693334,0.6853333){$ v_t $}
+\pscircle[linecolor=black, linewidth=0.04, dimen=outer](5.4133334,0.82666665){0.37333333}
+\rput[bl](2.2426667,0.6853333){MODEL}
+\psellipse[linecolor=black, linewidth=0.04, dimen=outer](2.88,0.8186667)(0.88266665,0.408)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(0.76,0.816)(1.976,0.816)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(3.8,0.816)(5.016,0.816)
+\rput[bl](2.7893333,-0.9946667){$ \Phi $}
+\pscircle[linecolor=black, linewidth=0.04, dimen=outer](2.8933334,-0.85333335){0.37333333}
+\psline[linecolor=black, linewidth=0.04, linestyle=dashed, dash=0.17638889cm 0.10583334cm, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(2.872,-0.45333335)(2.872,0.368)
+\end{pspicture}
+}
